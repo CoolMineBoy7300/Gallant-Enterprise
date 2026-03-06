@@ -32,6 +32,7 @@ html {
  nav {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
  }
 
  nav button {
@@ -43,6 +44,7 @@ html {
   border: none;
   cursor: pointer;
   font-size: 130%;
+  min-width: 85px;
  }
 
  nav button:hover {
